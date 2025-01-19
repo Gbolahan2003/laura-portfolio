@@ -7,7 +7,7 @@ import profile2 from './assets/images/WhatsApp Image 2025-01-15 at 15.10.17_f0b0
 
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
 
   const scrollToSection = (id: string | null) => {
     const element = id ? document.getElementById(id) : null;
@@ -20,7 +20,7 @@ function App() {
   };
   
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    <div className={'dark'}>
       <div className="mx-auto max-w-7xl px-6 lg:px-12 dark:bg-gray-900 dark:text-white">
         {/* Navbar */}
         <motion.nav
@@ -229,7 +229,7 @@ function App() {
                 id="message"
                 placeholder="Write your message here"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-                rows="5"
+                rows={5}
               ></textarea>
             </div>
             

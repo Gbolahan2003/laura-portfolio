@@ -1,5 +1,5 @@
 'use client'
-import React, { FC } from 'react'
+import  { FC } from 'react'
 import { Icon } from '@iconify/react';
 
 
