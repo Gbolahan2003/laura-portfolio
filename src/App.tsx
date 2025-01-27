@@ -5,7 +5,7 @@ import Iconify from './icon';
 import profile1 from './assets/images/WhatsApp Image 2025-01-15 at 15.10.17_364c1a94.jpg';
 import profile2 from './assets/images/WhatsApp Image 2025-01-15 at 15.10.17_f0b0e1ad.jpg';
 import image1 from './assets/images/WhatsApp Image 2025-01-23 at 19.25.58_0bb895fd.jpg';
-import image2 from './assets/images/WhatsApp Image 2025-01-23 at 19.25.36_9a217c26.jpg';
+import image2 from './assets/images/WhatsApp Image 2025-01-27 at 11.16.06_636681bd.jpg'
 import emailjs from '@emailjs/browser';
 import {toast, Toaster} from 'sonner'
 
