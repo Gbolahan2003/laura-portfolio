@@ -71,7 +71,7 @@ function App() {
   };
 
    const downloadAsset = (fileName: string): void => {
-    const filePath = `/assets/${fileName}`; 
+    const filePath = `./assets/${fileName}`; 
     const a = document.createElement('a');
     a.href = filePath;
     a.download = fileName;
