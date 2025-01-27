@@ -67,7 +67,7 @@ function App() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   
-    setIsNavOpen(false); // Close dropdown on click
+    setIsNavOpen(false); 
   };
 
    const downloadAsset = (fileName: string): void => {
@@ -247,7 +247,7 @@ const sendEmail = (e:any) => {
             </div>
           </motion.nav>
 
-          {/* Mobile Dropdown Menu */}
+        
           {isNavOpen && (
             <motion.div
               className="lg:hidden flex flex-col bg-white p-4 gap-4 shadow-md rounded-lg dark:bg-gray-800"
